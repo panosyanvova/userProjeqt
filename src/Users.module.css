@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.name{
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.nameCont{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap:25px;
+  background-color: aqua;
+  border-radius: 15px;
+  padding: 10px 25px;
+  
+}
